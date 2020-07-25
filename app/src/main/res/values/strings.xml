@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FreeChat</string>
+
+    //消息碎片
+    <string name="username">昵称</string>
+    <string name="msgcontent">最新消息内容</string>
+    <string name="msgtime">2020/7/24</string>
+
+    //主活动
+    <string name="msg">消息</string>
+    <string name="friend">好友</string>
+    <string name="explore">探索</string>
+
+    //聊天
+    <string name="msg_input">输入想要发送的内容</string>
+    <string name="send_btn">发送</string>
+</resources>
