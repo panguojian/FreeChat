@@ -9,6 +9,7 @@ import android.widget.CompoundButton
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.pgj.freechat.R
+import com.pgj.freechat.ui.explore.ExploreFragment
 import com.pgj.freechat.ui.friend.FriendFragment
 import com.pgj.freechat.ui.msg.MsgFragment
 import kotlinx.android.synthetic.main.activity_main.*
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() ,CompoundButton.OnCheckedChangeListener
                     replaceFragment(FriendFragment())
                 }
                 R.id.rb_explore->{
-                    Toast.makeText(this,"探索",Toast.LENGTH_SHORT).show()
+                    replaceFragment(ExploreFragment())
                 }
             }
         }
