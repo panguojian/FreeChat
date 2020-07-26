@@ -5,7 +5,7 @@
     <color name="colorAccent">#00ACC1</color>
 
     //主界面
-    <color name="top">#D3DCDC</color>
+    <color name="top">#673AB7</color>
     <color name="bottom">#D3DCDC</color>
 
     //聊天界面
